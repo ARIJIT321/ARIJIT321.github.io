@@ -334,10 +334,10 @@ background: blue;
     justify-content: center;
 
 }
-.Project-overlay h2{
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-bottom: 10px;
+.Project-overlay div{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
 }
 .Project-overlay i{
     font-size: 24px;
