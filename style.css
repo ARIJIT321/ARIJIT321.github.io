@@ -339,6 +339,9 @@ background: blue;
     width: 50%;
     justify-content: space-around;
 }
+.Project-overlay h2{
+    color: #fff;
+}
 .Project-overlay i{
     font-size: 24px;
     padding: 10px;
