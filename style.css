@@ -13,7 +13,10 @@ li{
 }
 .container{
     max-width: 1000px;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    margin-bottom: -150px;
     width: auto ;
     /* background-color: #171b3c; */
 }
@@ -166,6 +169,15 @@ background: blue;
 
 }
 
+/* About */
+.about {
+    min-width: 600px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 7rem;
+}
+
  .about-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -210,15 +222,21 @@ background: blue;
     margin-bottom: 1.5rem;
 }
 
-
-/* Skills */
-.skiils-content{
+/* tech stack */
+.tech {
+    min-width: 600px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 7rem;
+}
+.tech-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 
 }
-.skiils-box{
+.tech-box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -228,25 +246,61 @@ background: blue;
     border-radius: 0.4rem;
     transition: 0.5s ;
 }
-.skiils-box:hover{
+.tech-box:hover{
     transform: scale(1.05);
     transition: 0.5sec;
 }
-/* .skiils-box i{
+/* .tech-box i{
 
 } */
-.skiils-box h2{
+.tech-box h2{
     font-size: 1.1rem;
     font-weight: 500;
     margin: 0.5rem 0;
     columns: green;
 }
-.skiils-box p{
+.tech-box p{
     font-size: 0.9rem;
 
 }
 
+/* skills */
+.skills {
+    min-width: 600px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 7rem;
+}
+.skills-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+
+}
+.skills-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background: #171b3c;
+    border-radius: 0.4rem;
+
+}
+.skills-box .bx{
+    
+}
+
+
 /* Projects */
+.projects {
+    min-width: 600px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 7rem;
+}
 .Project-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -304,19 +358,31 @@ background: blue;
 
 
 /* Making Responsive */
-@media (max-width:990px) {
+@media all and (min-width: 451px) and (max-width: 750px) and (max-width:990px) {
     .container{
         margin: 0 auto;
         width: 90%;
+        margin-bottom: -150px;
+    }
+    .nav{
+        width: 100%;
     }
 }
 
-@media (max-width:892px){
+@media all and (min-width: 100px) and (max-width: 450px){
+    .container{
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: -150px;
+    }
     section{
+        width: 90%;
+        margin: auto;
         padding: 2rem 0;
     }
     .nav{
-        padding: 12px 0;
+        width: 100%;
+        padding: 2px 0;
     }
     .heading{
         font-size: 4rem;
