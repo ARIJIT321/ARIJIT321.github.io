@@ -358,6 +358,25 @@ background: blue;
     top: 0;
     transition: 0.5s;
 }
+/* Statitics */
+.statitics-content{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    gap: 1.5rem;
+}
+.statitics-box{
+    padding: 20px 10px;
+    background: #0d0f2c;
+    border-radius:0.4rem;
+    text-align: center;
+}
+.statitics-box h2{
+    font-size: 1.2rem;
+}
+.statitics-box span{
+    font-size: 0.845rem;
+}
 
 
 /* Making Responsive */
