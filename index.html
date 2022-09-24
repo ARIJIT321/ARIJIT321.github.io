@@ -4,51 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/> -->
+    <title>Arijit Bhatta</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-
-        
+    <!-- Header -->
 <header>
     <!-- nav -->
-    <nav class="nav">
+    <nav class="nav container">
         <!-- logo -->
-        <a href="#" class="logo">Arijit</a>
+        <a href="#home" class="logo">Arijit</a>
 
         <!-- navbar -->
-        <div class="navbar">
-            <div><a href="#home" class="nav-link">Home</a></div>
-            <div><a href="#about" class="nav-link">About</a></div>
-            <div><a href="#skills" class="nav-link">Skills</a></div>
-            <div><a href="#projects" class="nav-link">Projects</a></div>
-            <div><a href="#contact" class="nav-link">Contact</a></div>
+        <ul class="navbar">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#tech" class="nav-link">Tech</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-        
     </nav>
 
 
 </header>
 
 <!-- HOME -->
-<section class="home container">
-    <div class="home-container">
+<section class="home container" id="home">
+    <div class="home-content">
         <div class="home-img">
             <img src="./20180202_131715-01.jpeg" alt="" >
         </div>
         <div class="home-txt">
             <h3>Hello</h3>
             <h2>I'm <span class="color">Arijit Bhatta</span></h2>
-            <p>JAVA Developer</p>
-            <p></p>
+            <p><span class="color">JAVA Developer</span></p>
 
             <!-- Social -->
             <div class="social">
                 <a href="https://www.linkedin.com/in/arijit-bhatta-b87473238/"><img src="./bxl-linkedin-square.svg" alt=""></a>
                 <a href="https://github.com/ARIJIT321"><img src="./bxl-github.svg" alt=""></i></a>
-                <!-- <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a> -->
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
                 
             </div>
         </div>
@@ -67,19 +70,18 @@
                 <br>Backend Developer
             </h2>
             <a href="Resume.pdf" class="btn" download="Resume.pdf">
-                Download Resume
+                Download CV
                 <img src="./bxs-download.svg" alt="">
             </a>
         </div>
         <div class="about-text">
             <p>Backend developer with core Knowladge in JAVA with strong passion for coding and problem solving
-                 Looking forward to contribute and enhance my skiils as adeveloper.
+                 Looking forward to contribute and enhance my tech as adeveloper.
             </p>
         </div>
     </div>
 
 </section>
-
 
 <!-- Tech stack -->
 <section class="tech container" id="tech">
@@ -88,33 +90,29 @@
     <!-- Service content -->
     <div class="tech-content">
         <div class="tech-box">
-            <i></i>
-            <h2>JAVA</h2>
+            <img src="./html.png" alt="">
         </div>
         <div class="tech-box">
-            <i></i>
-            <h2>MySQL</h2>
+            <img src="./css.png" alt="">
         </div>
         <div class="tech-box">
-            <i></i>
-            <h2>Hibernate</h2>
+            <img src="./js.png" alt="">
         </div>
         <div class="tech-box">
-            <i></i>
-            <h2>Maven</h2>
+            <img src="./Git_icon.svg.png" alt="">
         </div>
         <div class="tech-box">
-            <i></i>
-            <h2>Cloud Computing</h2>
+            <img src="./github.svg" alt="">
         </div>
         <div class="tech-box">
-            <i></i>
-            <h2>AWS</h2>
+            <img src="./java icon.jpg" alt="">
         </div>
-        <!-- <div class="tech-box">
-            <i></i>
-            <h2>Data Structure and algorith</h2>
-        </div> -->
+        <div class="tech-box">
+            <img src="./mysqlpng.png" alt="">
+        </div>
+        <div class="tech-box">
+            <img src="./aws.jpg" alt="">
+        </div>
     </div>
 </section>
 
@@ -144,42 +142,39 @@
 
 
 <!-- Projects -->
-<section class="projects container" id="Projects">
+<section class="projects container" id="projects">
     <!-- Heading -->
     <h2 class="heading">Projects</h2>
     <!-- Project content -->
-    <div class="Project-content">
-        <div class="Project-box">
+    <div class="project-content">
+        <div class="project-box">
+            <img src="./Myntra-project.jpg" alt="" class="project-img">
             <!-- overlay -->
-            <div class="Project-overlay">
-                <img src="./Myntra-project.jpg" alt="" class="Project-img">
-                <!-- <h2>Coming Soon</h2> -->
-                <div class="">
-                    <a href="https://luminous-cocada-0f0885.netlify.app/">
-                        <h2>Live</h2>
-                    </a>
-                    <a href="https://github.com/arun5G/myntra"><h2>Code</h2></a>
-                </div>
+            <div class="project-overlay">
+                <h2>Myntra Clone</h2>
+                <a href="https://luminous-cocada-0f0885.netlify.app/">
+                    <i class='bx bx-link-alt'>Live</i>
+                </a>
+                <a href="https://github.com/arun5G/myntra"><i class='bx bxl-github'>Code</i></a>
             </div>
         </div>
 
-        <div class="Project-box">
+        <div class="project-box">
+            <img src="./Intern Theory-project.jpg" alt="" class="project-img">
             <!-- overlay -->
-            <div class="Project-overlay">
-                <img src="./Intern Theory-project.jpg" alt="" class="Project-img">
-                <div class="">
-                    <a href="https://imaginative-lebkuchen-c86683.netlify.app/">
-                        <h2>Live</h2>
-                    </a>
-                    <a href="https://github.com/PankajkandpalL/Project_Intern_theory"><h2>Code</h2></a>
-                </div>
+            <div class="project-overlay">
+                <h2>Intern Theory</h2>
+                <a href="https://imaginative-lebkuchen-c86683.netlify.app/">
+                    <i class='bx bx-link-alt'>Live</i>
+                </a>
+                <a href="https://github.com/PankajkandpalL/Project_Intern_theory"><i class='bx bxl-github'>Code</i></a>
             </div>
         </div>
 
-        <div class="Project-box">
-            <img src="" alt="" class="Project-img">
+        <div class="project-box">
+            <img src="" alt="" class="project-img">
             <!-- overlay -->
-            <div class="Project-overlay">
+            <div class="project-overlay">
                 <h2>Coming Soon</h2>
                 <a href="#">
                     <i></i>
@@ -187,10 +182,10 @@
             </div>
         </div>
 
-        <div class="Project-box">
-            <img src="" alt="" class="Project-img">
+        <div class="project-box">
+            <img src="" alt="" class="project-img">
             <!-- overlay -->
-            <div class="Project-overlay">
+            <div class="project-overlay">
                 <h2>Coming Soon</h2>
                 <a href="#">
                     <i></i>
@@ -200,7 +195,7 @@
     </div>
 </section>
 
-<!-- Statitics  -->
+<!-- Statitics -->
 <section class="statitics container" id="statitics">
     <!-- Heading -->
     <h2 class="heading">Statitics</h2>
@@ -219,36 +214,43 @@
             <span>Hours of Soft Skills Sessions</span>
         </div>
     </div>
-    
 </section>
 
+<!-- contact Form -->
 <section class="contact container" id="contact">
     <!-- Heading -->
     <h2 class="heading">Contact</h2>
-    <!-- contact details -->
-    <div class="contact-content">
-        <div class="contact-box">
-            <a href="https://www.linkedin.com/in/arijit-bhatta-b87473238/"><img src="./bxl-linkedin-square.svg" alt=""></a>
-            <h2>Linkedin</h2>
-        </div>
-        <div class="contact-box">
-            <a href="https://github.com/ARIJIT321"><img src="./bxl-github.svg" alt=""></i></a>
-            <h2>Github</h2>
-        </div>
-        <div class="contact-box">
-            <a href="#"><img src="./bxl-gmail.svg" alt=""></a>
-            <h2>arijitbhatta123@gmail.com</h2>
-        </div>
-        <div class="contact-box">
-            <a href="#"><img src="./bxl-whatsapp-square.svg" alt=""></a>
-            <h2>7656956919</h2>
-        </div>
-    </div>
+    <!-- Contact Form -->
+    <form action="" class="contact-form" id="contact-form">
+        <input type="text" placeholder="Your Name" class="name" required>
+        <input type="email" placeholder="Email address" class="email" required>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here..." class="message" required></textarea>
+        <input type="submit" value="send" class="send-btn" >
+    </form>
+    <!--  -->
+    
+
 </section>
 
-    
+<!-- Footer -->
+<section class="footer container" id="footer">
+    <h1>Contact me Through</h1>
+    <div class="social">
+        <a href="https://www.linkedin.com/in/arijit-bhatta-b87473238/"><img src="./bxl-linkedin-square.svg" alt=""></a>
+        <a href="https://github.com/ARIJIT321"><img src="./bxl-github.svg" alt=""></i></a>
+        <!-- <a href="#"><i class='bx bxl-linkedin'></i></a> -->
+        <!-- <a href="#"><i class='bx bxl-github'></i></a>      -->
+    </div>
+    <!-- footer links -->
+    <!-- <div class="footer-links">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Disclaimer</a>
+    </div> -->
+    <!-- Copyright -->
+    <p> © 2022 Designed and Built by Arijit Bhatta. Contact : +91 7656956919 or Mail at : arijitbhatta123@gmail.com</p>
+</section>
+
 </body>
 </html>
 <script src="./main.js"></script>
-<!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"> -->
-</script>
