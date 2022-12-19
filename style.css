@@ -482,6 +482,14 @@ header{
     font-size: 0.845rem;
 }
 
+
+/* git status */
+
+.status-content{
+    background-color: #090a1a;
+   
+}
+
 /* contact Form */
 .contact-form{
     max-width: 600px;
