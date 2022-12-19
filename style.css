@@ -1,5 +1,6 @@
 *{
     font-family: 'poppins',sans-serif;
+    font-style: oblique;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -224,7 +225,7 @@ header{
 .heading{
     font-size: 5rem;
     text-transform: uppercase;
-    color:#222231;
+    color:#647bff ;
     text-align: center;
     margin-bottom: 2rem;
 }
