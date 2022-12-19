@@ -426,8 +426,9 @@ header{
   }
 
   .project>div>div>div>a>button{
-    width: 70px;
+    width: Auto;
     height: 40px;
+    padding: 5px;
     transition: all 0.3s ease;
     margin-bottom: 4px;
     font-size: 18px;
@@ -456,8 +457,9 @@ header{
     transform: translateX(0);
     transition: all 1s ease;
   } */
-
-
+  .description{
+    text-align: left;
+  }
 
 
 
